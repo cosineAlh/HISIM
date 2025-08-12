@@ -1,0 +1,33 @@
+Test Case 1:
+  - AI Network: ViT
+  - HW configuration: Xbar=1024, Npe=9, Ntile=100, Ntier=2, Nstack=2, chip_arch=M3D, placement_method=5, W2d=32, thermal=False
+
+Test Case 2:
+  - AI Network: densenet121
+  - HW configuration: Xbar=1024, Npe=36, Ntile=64, Ntier=2, Nstack=2, chip_arch=M3D, placement_method=5, W2d=32, thermal=False
+
+Test Case 3:
+  - AI Network: densenet121
+  - HW configuration: Xbar=1024, Npe=36, Ntile=81, Ntier=2, Nstack=1, chip_arch=M3D, placement_method=5, W2d=32, thermal=False
+  - Sweep: tsv_pitch in [2, 3, 4, 5, 10, 20] um
+
+Test Case 4:
+  - AI Network: densenet121
+  - HW configuration: Xbar=1024, Npe=36, Ntile=81, Ntier=2, Nstack=1, chip_arch=M3D, placement_method=5, tsv_pitch=5, thermal=False
+  - Sweep: W2d in [6, 11, 16, 21, 26, 31]
+
+Test Case 5:
+  - AI Network: densenet121
+  - HW configuration: Xbar=1024, Npe=36, Ntile=169, Ntier varies [1,2,3], Nstack=1, chip_arch=M3D, placement_method=5, W2d=32, thermal=True
+
+Test Case 6:
+  - AI Network: densenet121
+  - HW configuration: Xbar=1024, Npe=36, Ntile=81, Ntier=2, Nstack=1, chip_arch=M3D, placement_method=5, W2d=32, thermal=True
+
+Test Case 7:
+  - AI Network: ViT
+  - HW configuration: Xbar=1024, Npe=9, Ntile=169, Ntier=2, Nstack=1, chip_arch=M3D, placement_method=5, W2d=32, thermal=True
+
+Test Case 8:
+  - AI Network: densenet121
+  - HW configuration: Xbar=1024, Npe=36, Ntile=81, Ntier=1, Nstack=2, chip_arch=M3D, placement_method=1, W2d=32, thermal=False
