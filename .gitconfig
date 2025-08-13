@@ -1,3 +1,27 @@
 [user]
 	email = anlh@shanghaitech.edu.cn
 	name = anlh
+
+../.HSPICE.html
+../.Xauthority
+../.bash_history
+../.bash_logout
+../.bashrc
+../.bashrc_my
+../.cache/
+../.config/
+../.dotnet/
+../.libmgr
+../.local/
+../.profile
+../.python_history
+../.sh_history
+../.ssh/
+../.sudo_as_admin_successful
+../.viminfo
+../.vscode-server/
+../.wget-hsts
+../CDS.log
+../ImageNet/
+./
+../libManager.log
