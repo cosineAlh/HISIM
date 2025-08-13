@@ -515,7 +515,7 @@ def solver(cube_G_dict, cube_n_dict, cube_power_dict, cube_layertype_dict, xdim,
                 break
         t = t[devicestart:deviceend, :, :]
         namemap = namemap[devicestart:deviceend, :, :]
-        realratiot = convert2realratio(t, namemap, xdim) #TODO: needed?
+        realratiot = convert2realratio(t, namemap, xdim) # TODO: needed?
 
         vmin  = t.min()
         vmax  = t.max()

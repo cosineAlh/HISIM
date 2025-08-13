@@ -47,7 +47,7 @@ def parse_args():
     parser.add_argument('--tsvPitch', type=float, default=10, help='TSV pitch um')
     parser.add_argument('--W2d', type=int, default=32, help='Number of links of 2D NoC')
     parser.add_argument('--voltage', type=float, default=0.5, help='Operating Voltage in voltage')
-    parser.add_argument('--placement_method', type=int, default=5, help='computing tile placement method')
+    parser.add_argument('--placement_method', type=int, default=2, help='computing tile placement method')
     parser.add_argument('--routing_method', type=int, default=2, help='3D routing method')
     parser.add_argument('--percent_router', type=float, default=0.5, help='when data route from one tier to next tier, the system will choose how much percent routers for 3D communication')
     parser.add_argument('--router_times_scale', type=int, default=1, help='Scaling factor for time components of router: trc, tva, tsa, tst,tl, tenq')
